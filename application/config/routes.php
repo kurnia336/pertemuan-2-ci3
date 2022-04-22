@@ -56,6 +56,6 @@ $route['typography']            = 'page/typography';
 $route['table']                 = 'page/table';
 $route['image']                 = 'page/image';
 
-$route['default_controller']    = 'welcome';
+$route['default_controller']    = 'page/index';
 $route['404_override']          = 'welcome/notFound';
 $route['translate_uri_dashes']  = FALSE;
